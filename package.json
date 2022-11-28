@@ -4,9 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --exec babel-node app.js",
-    "heroku-prebuild": "npm install -f",
-    "heroku-postbuild": "npm run prod"
+    "start": "nodemon --exec babel-node app.js"
   },
   "author": "Abdelrahman Mohamed",
   "license": "ISC",
