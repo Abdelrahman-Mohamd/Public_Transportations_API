@@ -12,6 +12,7 @@
     "axios": "^1.2.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
     "babel-node": "^0.0.1-security",
     "babel-preset-env": "^1.7.0",
     "bcrypt": "^5.1.0",
@@ -28,6 +29,7 @@
     "@babel/core": "^7.20.5",
     "@babel/node": "^7.20.5",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.20.2"
+    "@babel/preset-env": "^7.20.2",
+    "babel-core": "^6.26.3"
   }
 }
