@@ -2,9 +2,9 @@
   "name": "public_transportations_api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start":"nodemon --exec babel-node app.js"
+    "start": "nodemon --exec babel-node app.js"
   },
   "author": "Abdelrahman Mohamed",
   "license": "ISC",
@@ -19,8 +19,10 @@
     "nodemon": "^2.0.20"
   },
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
     "@babel/node": "^7.20.5",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.20.2"
   }
 }
