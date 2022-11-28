@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
     "bcrypt": "^5.1.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.3",
