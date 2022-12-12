@@ -1,5 +1,5 @@
-import { Router } from "express";
-import userModel from '../models/user'
+const {Router} = require('express');
+const userModel = require('../models/user');
 const user = Router()
 const neo4j = require('neo4j-driver');
 require('dotenv').config()
@@ -25,4 +25,5 @@ user.post('/showResult', async (req,res)=>{
 
 
 
-export default user
+// export default user
+module.exports = user

@@ -44,7 +44,7 @@ const shortestPath = async (locationNode , destinationNode) =>{
     return {endNode:endNode , routes:routes , recordsLength:recordsLength , length:length}
 }
 
-export default {
+module.exports = {
     findAll,
     shortestPath
 }
