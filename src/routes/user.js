@@ -16,8 +16,12 @@ user.get('/', async (req,res)=>{
     const result = await userModel.findAll()
     res.json(result)
 })
-
-//Omar: write the request here, call the endpoint "/orderByCost"
+user.post('/orderByDistance', async (req,res)=>{
+    var locationNode = req.body.Location;
+    var destinationNode = req.body.Destination;
+    const result = await userModel.orderByDistance(locationNode , destinationNode)
+    res.json(result)
+})
 
 
 
