@@ -67,9 +67,9 @@ const orderByDistance = async (locationNode , destinationNode) =>{
     /* to store endNode in allPaths[]
        NOTE: endNode contains the properties of: toalCost , totalDistance of the whole path */
     allPaths.push({
-        name:result.records[numberOfAvailablePaths-1]._fields[0].segments[3].end.properties.name,
-        latitude: result.records[numberOfAvailablePaths-1]._fields[0].segments[3].end.properties.latitude,
-        longitude: result.records[numberOfAvailablePaths-1]._fields[0].segments[3].end.properties.longtude,
+        name:result.records[numberOfAvailablePaths-1]._fields[0].end.properties.name,
+        latitude: result.records[numberOfAvailablePaths-1]._fields[0].end.properties.latitude,
+        longitude: result.records[numberOfAvailablePaths-1]._fields[0].end.properties.longtude,
         totalCost:totalCost,
         totalDistance: totalDistance
     });
